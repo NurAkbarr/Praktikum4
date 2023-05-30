@@ -57,6 +57,7 @@ SELECT COUNT(*) AS jumlah_baris FROM pegawai;
 ```
 
 - Output
+
   ![img](gambar/Tampilkan%20Jumlah%20Baris.png)
 
 5. Tampilkan/hitung jumlah total gaji di tabel pegawai!
@@ -68,6 +69,7 @@ SELECT SUM(gaji) AS total_gaji FROM pegawai;
 ```
 
 - Output
+
   ![img](gambar/Tampilkan%20total%20gaji.png)
 
 6. Tampilkan/hitung rata-rata gaji pegawai!
@@ -79,6 +81,7 @@ SELECT AVG(gaji) AS rata_gaji FROM pegawai;
 ```
 
 - Output
+
   ![img](gambar/Rata2%20gaji%20pegaway.png)
 
 7. Tampilkan gaji terkecil!
@@ -90,6 +93,7 @@ SELECT MIN(gaji) AS gaji_terkecil FROM pegawai;
 ```
 
 - Output
+
   ![img](gambar/Gaji%20terkecil.png)
 
 8. Tampilkan gaji terbesar!
@@ -101,11 +105,14 @@ SELECT MAX(gaji) AS gaji_terbesar FROM pegawai;
 ```
 
 - Output
+
   ![img](gambar/Gaji%20Terbesar.png)
 
   # Tugas Praktikum
 
 - Buat table hewan dan isi datanya seperti berikut:
+
+
   ![img](gambar/Select%20from%20hewan.png)
 
 1. Tampilkan jumlah hewan yang dimiliki setiap owner.
@@ -162,6 +169,7 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY sex;
    ```
 
 - Output
+
   ![img](gambar/Jumlah%20hewan%20Cat%26Dog.png)
 
 6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui
@@ -176,6 +184,7 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY sex;
    ```
 
    - Output
+   
      ![img](gambar/Hewan%20berdasarkan%20kelamin.png)
 
 # Evaluasi dan Pertanyaan
